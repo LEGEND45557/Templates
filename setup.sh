@@ -1,3 +1,4 @@
+echo "SETUP STARTED"
 mkdir -p /workspace/ComfyUI/models/diffusion_models
 mkdir -p /workspace/ComfyUI/models/loras
 mkdir -p /workspace/ComfyUI/models/clip
@@ -12,3 +13,4 @@ wget -nc -P /workspace/ComfyUI/models/loras https://huggingface.co/Alissonerdx/B
 wget -nc -P /workspace/ComfyUI/models/clip https://huggingface.co/f5aiteam/CLIP/resolve/main/qwen_2.5_vl_7b_fp8_scaled.safetensors
 
 wget -nc -P /workspace/ComfyUI/models/vae https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors
+echo "SETUP FINISHED"
